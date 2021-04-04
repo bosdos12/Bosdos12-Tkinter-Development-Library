@@ -15,7 +15,6 @@ def TK_WebImage(webImageURL):
 
 #///////////////////////////////////////////////////////////////////////////////////////////////////////
 
-# Got it from: [https://stackoverflow.com/questions/42579927/rounded-button-tkinter-python];
 # This a class which allows you to create rounded buttons in tkinter, implementation is just like any other tkinter element;
 # The required properties are: (parent, width, height, cornerradius, padding, fg, bg, command);
 class RoundedButton(tk.Canvas):
