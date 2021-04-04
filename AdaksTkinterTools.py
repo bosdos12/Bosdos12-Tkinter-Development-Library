@@ -19,8 +19,7 @@ def TK_WebImage(webImageURL):
 # The required properties are: (parent, width, height, cornerradius, padding, fg, bg, command);
 class RoundedButton(tk.Canvas):
     def __init__(self, parent, width, height, cornerradius, padding, fg, bg,command=None):
-        tk.Canvas.__init__(self, parent, borderwidth=0, 
-            relief="flat", highlightthickness=0, bg="lightgray")
+        tk.Canvas.__init__(self, parent, borderwidth=0, relief="flat", highlightthickness=0, bg="lightgray")
         self.command = command
         if cornerradius > 0.5*width:
             print("Error: cornerradius is greater than width.")
